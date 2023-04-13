@@ -63,7 +63,6 @@ const CreateEmployee = () => {
       })
       .catch((err) => console.error(err));
   };
-  console.log(departmentsList,projectsList)
     return (
       <>
         <Header pagename="Create Employee" />

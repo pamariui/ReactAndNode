@@ -8,6 +8,7 @@ import Projects from './pages/Projects';
 import CreateDepartment from './pages/CreateDepartment';
 import EditDepartment from './pages/EditDepartment';
 import CreateEmployee from './pages/CreateEmployee';
+import CreateProject from './pages/CreateProject';
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
           <Route path='/departments/create' element={<CreateDepartment/>} />
           <Route path="/departments/:id/edit" element={<EditDepartment />} />
           <Route path='/projects' element={<Projects/>} />
+          <Route path='/projects/create' element={<CreateProject/>} />
       </Routes>
     </>
   )
