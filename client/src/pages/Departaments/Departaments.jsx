@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import './style.css'
 import Header from '../../component/Header';
 import Main from '../../component/Main/Main';
 import { Link } from 'react-router-dom';

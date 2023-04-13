@@ -42,7 +42,7 @@ const CreateDepartment = () => {
           </label>
           <button type='submit'>Create</button>
         </form>
-        <Link to='/departments'>Back to Departments</Link>
+        <Link to='/departaments'>Back to Departments</Link>
       </Main>
     </>
   );
