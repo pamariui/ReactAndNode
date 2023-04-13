@@ -1,0 +1,4 @@
+CREATE TABLE IF NOT EXISTS departments(
+	dept_id INT AUTO_INCREMENT PRIMARY KEY,
+    dept_name VARCHAR(255) NOT NULL
+);
